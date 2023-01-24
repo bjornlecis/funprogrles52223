@@ -1,3 +1,4 @@
+import json
 kinderen = {"kind_1":{"naam":"Inge","Leeftijd":12},
             "kind_2":{"naam":"Pieter","Leeftijd":10},
             "kind_3":{"naam":"Lander","Leeftijd":8}
@@ -43,8 +44,10 @@ def toon_kinderen():
     print("--------------------------------------------------")
 
 #wijzig_leeftijd()
-toon_kinderen()
+"""toon_kinderen()
 geef_zakgeld()
 toon_kinderen()
 verhoog_zakgeld()
+toon_kinderen()
+"""
 toon_kinderen()
